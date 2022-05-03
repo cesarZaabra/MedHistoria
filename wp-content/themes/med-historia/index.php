@@ -51,7 +51,7 @@
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h2>¿Qué es MedHistoria?</h2>
-                        <img src="<?= get_template_directory_uri() ?>/assets/img/section-img.png" alt="#">
+                        <img src="<?= get_template_directory_uri()?>/assets/img/section-img.png" alt="#">
                         <p>MedHistoria es una plataforma al servicio de la salud, donde podrá gestionar todas sus historias clínicas online de diferentes especialidades, generando una solución confiable, accesible y segura que le ayudará a gestionar sus consultas en un registro médico sin esfuerzo. </p>
                     </div>
                 </div>
@@ -155,7 +155,7 @@
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h2>Ofrecemos diferentes servicios para mejorar su salud</h2>
-                        <img src="<?= get_template_directory_uri() ?>/assets/img/section-img.png" alt="#">
+                        <img src="<?= get_template_directory_uri()?>/assets/img/section-img.png" alt="#">
                         <p>La automatización de procesos y servicios ha beneficiado la vida de los pacientes y transformado los sistemas de salud en todo el mundo.</p>
                     </div>
                 </div>
@@ -190,7 +190,7 @@
                     <!-- Start Choose Rights -->
                     <div class="choose-right">
                         <div class="video-image">
-                            <!-- Video Animation
+                            <!-- Video Animation 
                             <div class="promo-video">
                                 <div class="waves-block">
                                     <div class="waves wave-1"></div>
@@ -198,7 +198,7 @@
                                     <div class="waves wave-3"></div>
                                 </div>
                             </div>-->
-                            <!--/ End Video Animation
+                            <!--/ End Video Animation 
                             <a href="https://www.youtube.com/watch?v=RFVXy6CRVR4" class="video video-popup mfp-iframe"><i class="fa fa-play"></i></a>-->
                         </div>
                     </div>
@@ -234,7 +234,7 @@
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h2>Ofrecemos el mejor servicio a un precio razonable</h2>
-                        <img src="<?= get_template_directory_uri() ?>/assets/img/section-img.png" alt="#">
+                        <img src="<?= get_template_directory_uri()?>/assets/img/section-img.png" alt="#">
                         <p>Una plataforma segura en la que podrá gestionar toda la información de sus pacientes de forma rápida.</p>
                     </div>
                 </div>
@@ -245,35 +245,35 @@
                 <div class="col-lg-12 col-12">
                     <div class="owl-carousel portfolio-slider">
                         <div class="single-pf wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
-                            <img src= "<?= get_template_directory_uri() ?>/assets/img/carrusel/Pediatria.png" alt="#">
+                            <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Pediatria.png" alt="#">
                             <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="0.4s" data-wow-duration="0.8s">
-                            <img src= "<?= get_template_directory_uri() ?>/assets/img/carrusel/Enfermeria.png" alt="#">
+                            <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Enfermeria.png" alt="#">
                             <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="0.6s" data-wow-duration="0.8s">
-                            <img src= "<?= get_template_directory_uri() ?>/assets/img/carrusel/Medicina.png" alt="#">
+                            <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Medicina.png" alt="#">
                             <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="0.8s" data-wow-duration="0.8s">
-                            <img src= "<?= get_template_directory_uri() ?>/assets/img/carrusel/Neurologia.png" alt="#">
+                            <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Neurologia.png" alt="#">
                             <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="1s" data-wow-duration="0.8s">
-                            <img src= "<?= get_template_directory_uri() ?>/assets/img/carrusel/Cardiologia.png" alt="#">
+                            <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Cardiologia.png" alt="#">
                             <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="1.2s" data-wow-duration="0.8s">
-                            <img src= "<?= get_template_directory_uri() ?>/assets/img/carrusel/Historia-clinica.png" alt="#">
+                            <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Historia-clinica.png" alt="#">
                             <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="1.4s" data-wow-duration="0.8s">
-                            <img src="<?= get_template_directory_uri() ?>/assets/img/carrusel/Laboratorio.png" alt="#">
+                            <img src="<?= get_template_directory_uri()?>/assets/img/carrusel/Laboratorio.png" alt="#">
                             <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="1.6s" data-wow-duration="0.8s">
-                            <img src= "<?= get_template_directory_uri() ?>/assets/img/carrusel/Optometria.png" alt="#">
+                            <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Optometria.png" alt="#">
                             <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                     </div>
@@ -290,7 +290,7 @@
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h2>¿Qué nos diferencia?</h2>
-                        <img src="<?= get_template_directory_uri() ?>/assets/img/section-img.png" alt="#">
+                        <img src="<?= get_template_directory_uri()?>/assets/img/section-img.png" alt="#">
                     </div>
                 </div>
             </div>
@@ -361,7 +361,7 @@
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h2>Nuestros profesionales recomiendan MedHistoria</h2>
-                        <img src="<?= get_template_directory_uri() ?>/assets/img/section-img2.png" alt="#">
+                        <img src="<?= get_template_directory_uri()?>/assets/img/section-img2.png" alt="#">
                     </div>
                 </div>
             </div>
@@ -370,7 +370,7 @@
                     <!-- Single Team -->
                     <div class="single-team wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">
                         <div class="t-head">
-                            <img src="<?= get_template_directory_uri() ?>/assets/img/profesionales/Santiago Polo.png" alt="#">
+                            <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/Santiago Polo.png" alt="#">
                             <div class="t-icon">
                                 <a href="appointment.html" class="btn">Get Appointment</a>
                             </div>
@@ -387,7 +387,7 @@
                     <div class="single-team wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
                         <!-- Team Head -->
                         <div class="t-head">
-                            <img src="<?= get_template_directory_uri() ?>/assets/img/profesionales/Monica Reyes.png" alt="#">
+                            <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/Monica Reyes.png" alt="#">
                             <div class="t-icon">
                                 <a href="appointment.html" class="btn">Get Appointment</a>
                             </div>
@@ -406,7 +406,7 @@
                     <div class="single-team wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="1s">
                         <!-- Team Head -->
                         <div class="t-head">
-                            <img src="<?= get_template_directory_uri() ?>/assets/img/profesionales/Jose Fuentes.png" alt="#">
+                            <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/Jose Fuentes.png" alt="#">
                             <div class="t-icon">
                                 <a href="appointment.html" class="btn">Get Appointment</a>
                             </div>
@@ -425,7 +425,7 @@
                     <div class="single-team wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
                         <!-- Team Head -->
                         <div class="t-head">
-                            <img src="<?= get_template_directory_uri() ?>/assets/img/profesionales/Juan Castañeda.png" alt="#">
+                            <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/Juan Castañeda.png" alt="#">
                             <div class="t-icon">
                                 <a href="appointment.html" class="btn">Get Appointment</a>
                             </div>
@@ -451,7 +451,7 @@
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h2>Cree sus Historias Clínicas, use nuestras plantillas para su consultorio, IPS, Clínica, Centros médicos y/o Especialidades</h2>
-                        <img src="<?= get_template_directory_uri() ?>/assets/img/section-img.png" alt="#">
+                        <img src="<?= get_template_directory_uri()?>/assets/img/section-img.png" alt="#">
                     </div>
                 </div>
             </div>
@@ -486,7 +486,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="department-right">
-                                            <img src="https://via.placeholder.com/570x370" alt="#">
+                                            <img src="<?= get_template_directory_uri()?>/assets/img/especialidades/Instituciones medicas.png" alt="#">
                                         </div>
                                     </div>
                                 </div>
@@ -509,7 +509,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="department-right">
-                                            <img src="https://via.placeholder.com/570x370" alt="#">
+                                            <img src="<?= get_template_directory_uri()?>/assets/img/especialidades/Cirugia.png" alt="#">
                                         </div>
                                     </div>
                                 </div>
@@ -531,7 +531,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="department-right">
-                                            <img src="https://via.placeholder.com/570x370" alt="#">
+                                            <img src="<?= get_template_directory_uri()?>/assets/img/especialidades/Dermatologia.png" alt="#">
                                         </div>
                                     </div>
                                 </div>
@@ -554,7 +554,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="department-right">
-                                            <img src="https://via.placeholder.com/570x370" alt="#">
+                                            <img src="<?= get_template_directory_uri()?>/assets/img/especialidades/Medicina Interna.png" alt="#">
                                         </div>
                                     </div>
                                 </div>
@@ -577,7 +577,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="department-right">
-                                            <img src="https://via.placeholder.com/570x370" alt="#">
+                                            <img src="<?= get_template_directory_uri()?>/assets/img/especialidades/Pediatria.png" alt="#">
                                         </div>
                                     </div>
                                 </div>
@@ -598,7 +598,7 @@
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h2>Le brindamos el mejor servicio a un precio razonable</h2>
-                        <img src="<?= get_template_directory_uri() ?>/assets/img/section-img.png" alt="#">
+                        <img src="<?= get_template_directory_uri()?>/assets/img/section-img.png" alt="#">
                         <p>Ni contratos, Ni cargos adicionales, Ni cláusulas de permanencia por un excelente servicio</p>
                     </div>
                 </div>
@@ -700,116 +700,16 @@
                     </div>
                 </div>
                 <!-- End Single Table-->
+                <div class="col-lg-4 col-md-12 col-12"></div>
+                <div class="col-lg-4 col-md-12 col-12">
+                    <div class="table-bottom">
+                        <a class="btn" href="#" style="background: #1dbfd6;">Conoce más</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
     <!--/ End Pricing Table -->
-
-    <!-- Start Blog Area -->
-    <section class="blog section" id="blog">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title">
-                        <h2>Keep up with Our Most Recent Medical News.</h2>
-                        <img src="<?= get_template_directory_uri() ?>/assets/img/section-img.png" alt="#">
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Single Blog -->
-                    <div class="single-news wow fadeInUp" data-wow-delay="0.4s" data-wow-duration="1s">
-                        <div class="news-head">
-                            <img src="https://via.placeholder.com/560x370" alt="#">
-                        </div>
-                        <div class="news-body">
-                            <div class="news-content">
-                                <div class="date">22 Aug, 2020</div>
-                                <h2><a href="blog-single.html">We have annnocuced our new product.</a></h2>
-                                <p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Blog -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Single Blog -->
-                    <div class="single-news wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="1s">
-                        <div class="news-head">
-                            <img src="https://via.placeholder.com/560x370" alt="#">
-                        </div>
-                        <div class="news-body">
-                            <div class="news-content">
-                                <div class="date">15 Jul, 2020</div>
-                                <h2><a href="blog-single.html">Top five way for solving teeth problems.</a></h2>
-                                <p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Blog -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Single Blog -->
-                    <div class="single-news wow fadeInUp" data-wow-delay="0.8s" data-wow-duration="1s">
-                        <div class="news-head">
-                            <img src="https://via.placeholder.com/560x370" alt="#">
-                        </div>
-                        <div class="news-body">
-                            <div class="news-content">
-                                <div class="date">05 Jan, 2020</div>
-                                <h2><a href="blog-single.html">We provide highly business soliutions.</a></h2>
-                                <p class="text">Lorem ipsum dolor a sit ameti, consectetur adipisicing elit, sed do eiusmod tempor incididunt sed do incididunt sed.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Single Blog -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Blog Area -->
-
-    <!-- Start clients -->
-    <div class="clients overlay">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-12">
-                    <div class="owl-carousel clients-slider">
-                        <div class="single-clients">
-                            <img src="https://via.placeholder.com/200x100" alt="#">
-                        </div>
-                        <div class="single-clients">
-                            <img src="https://via.placeholder.com/200x100" alt="#">
-                        </div>
-                        <div class="single-clients">
-                            <img src="https://via.placeholder.com/200x100" alt="#">
-                        </div>
-                        <div class="single-clients">
-                            <img src="https://via.placeholder.com/200x100" alt="#">
-                        </div>
-                        <div class="single-clients">
-                            <img src="https://via.placeholder.com/200x100" alt="#">
-                        </div>
-                        <div class="single-clients">
-                            <img src="https://via.placeholder.com/200x100" alt="#">
-                        </div>
-                        <div class="single-clients">
-                            <img src="https://via.placeholder.com/200x100" alt="#">
-                        </div>
-                        <div class="single-clients">
-                            <img src="https://via.placeholder.com/200x100" alt="#">
-                        </div>
-                        <div class="single-clients">
-                            <img src="https://via.placeholder.com/200x100" alt="#">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/Ens clients -->
 
     <!-- Start Appointment -->
     <section class="appointment">
@@ -817,9 +717,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title">
-                        <h2>We Are Always Ready to Help You. Book An Appointment</h2>
-                        <img src="<?= get_template_directory_uri() ?>/assets/img/section-img.png" alt="#">
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
+                        <h2>Contáctenos</h2>
+                        <img src="<?= get_template_directory_uri()?>/assets/img/section-img.png" alt="#">
                     </div>
                 </div>
             </div>
@@ -827,9 +726,9 @@
                 <div class="col-lg-6 col-md-12 col-12">
                     <form class="form" action="#">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-12">
+                            <div class="col-lg-12 col-md-12 col-12">
                                 <div class="form-group">
-                                    <input name="name" type="text" placeholder="Name">
+                                    <input name="Nombre" type="text" placeholder="Nombre">
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
@@ -839,42 +738,12 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <div class="form-group">
-                                    <input name="phone" type="text" placeholder="Phone">
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <div class="form-group">
-                                    <div class="nice-select form-control wide" tabindex="0"><span class="current">Department</span>
-                                        <ul class="list">
-                                            <li data-value="1" class="option selected ">Department</li>
-                                            <li data-value="2" class="option">Cardiac Clinic</li>
-                                            <li data-value="3" class="option">Neurology</li>
-                                            <li data-value="4" class="option">Dentistry</li>
-                                            <li data-value="5" class="option">Gastroenterology</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <div class="form-group">
-                                    <div class="nice-select form-control wide" tabindex="0"><span class="current">Doctor</span>
-                                        <ul class="list">
-                                            <li data-value="1" class="option selected ">Doctor</li>
-                                            <li data-value="2" class="option">Dr. Akther Hossain</li>
-                                            <li data-value="3" class="option">Dr. Dery Alex</li>
-                                            <li data-value="4" class="option">Dr. Jovis Karon</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-12">
-                                <div class="form-group">
-                                    <input type="text" placeholder="Date" id="datepicker">
+                                    <input name="Teléfono" type="text" placeholder="Teléfono">
                                 </div>
                             </div>
                             <div class="col-lg-12 col-md-12 col-12">
                                 <div class="form-group">
-                                    <textarea name="message" placeholder="Write Your Message Here....."></textarea>
+                                    <textarea name="Mensaje" placeholder="Mensaje"></textarea>
                                 </div>
                             </div>
                         </div>
@@ -882,19 +751,18 @@
                             <div class="col-lg-5 col-md-4 col-12">
                                 <div class="form-group">
                                     <div class="button">
-                                        <button type="submit" class="btn">Book An Appointment</button>
+                                        <button type="submit" class="btn">Enviar</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-7 col-md-8 col-12">
-                                <p>( We will be confirm by an Text Message )</p>
                             </div>
                         </div>
                     </form>
                 </div>
                 <div class="col-lg-6 col-md-12 ">
                     <div class="appointment-image">
-                        <img src="https://via.placeholder.com/520x520" alt="#">
+                        <img src="<?= get_template_directory_uri()?>/assets/img/contact-img.png" alt="#">
                     </div>
                 </div>
             </div>
@@ -909,8 +777,8 @@
                 <div class="col-lg-6  col-12">
                     <!-- Start Newsletter Form -->
                     <div class="subscribe-text ">
-                        <h6>Sign up for newsletter</h6>
-                        <p class="">Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,<br> homero alterum.</p>
+                        <h6>Regístrese para recibir el boletín</h6>
+                        <p class="">Ingrese su email y podrá recibir nuestro boletín periódicamente.</p>
                     </div>
                     <!-- End Newsletter Form -->
                 </div>
@@ -918,9 +786,9 @@
                     <!-- Start Newsletter Form -->
                     <div class="subscribe-form ">
                         <form action="mail/mail.php" method="get" target="_blank" class="newsletter-inner">
-                            <input name="EMAIL" placeholder="Your email address" class="common-input" onfocus="this.placeholder = ''"
-                                   onblur="this.placeholder = 'Your email address'" required="" type="email">
-                            <button class="btn">Subscribe</button>
+                            <input name="EMAIL" placeholder="Ingrese su email" class="common-input" onfocus="this.placeholder = ''"
+                                   onblur="this.placeholder = 'Ingrese su email'" required="" type="email">
+                            <button class="btn">Suscríbase</button>
                         </form>
                     </div>
                     <!-- End Newsletter Form -->
