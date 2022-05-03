@@ -80,11 +80,11 @@ function med_historia_custom_posts()
     register_post_type('sliders', [
         'labels'    => [
             'name'          => __('Sliders', 'MedHistoria'),
-            'singular_name' => __('Slides', 'MedHistoria')
+            'singular_name' => __('Slider', 'MedHistoria')
         ],
         'public'    => true,
         'show_ui'   => true,
-        'sports'    => ['title', 'editors', 'thumbnail', 'custom-fields'],
+        'supports'  => ['title', 'editor', 'thumbnail', 'custom-fields'],
         'show_in_rest' => true,
 
     ]);
