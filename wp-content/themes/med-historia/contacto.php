@@ -90,8 +90,8 @@ get_header();
                         <div class="single-info">
                             <i class="icofont icofont-ui-call"></i>
                             <div class="content">
-                                <h3>+(000) 1234 56789</h3>
-                                <p>info@company.com</p>
+                                <h3>601 712 3945</h3>
+                                <p>servicioalcliente@medhistoria.com</p>
                             </div>
                         </div>
                     </div>
@@ -101,8 +101,8 @@ get_header();
                         <div class="single-info">
                             <i class="icofont-google-map"></i>
                             <div class="content">
-                                <h3>2 Fir e Brigade Road</h3>
-                                <p>Chittagonj, Lakshmipur</p>
+                                <h3>Cra 64 #67b - 89 Int 2</h3>
+                                <p>Bogotá D.C.</p>
                             </div>
                         </div>
                     </div>
@@ -112,8 +112,8 @@ get_header();
                         <div class="single-info">
                             <i class="icofont icofont-wall-clock"></i>
                             <div class="content">
-                                <h3>Mon - Sat: 8am - 5pm</h3>
-                                <p>Sunday Closed</p>
+                                <h3>Domingo a domingo</h3>
+                                <p>05:00 - 22:00</p>
                             </div>
                         </div>
                     </div>
