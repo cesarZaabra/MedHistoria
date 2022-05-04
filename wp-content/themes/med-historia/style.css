@@ -3560,7 +3560,6 @@ body{
   background-color: #1A76D1;
   border: none;
   color: #ffffff;
-  text-transform: uppercase;
   white-space: nowrap;
   font-size: 16px;
   font-weight: 500;
@@ -3603,11 +3602,11 @@ body{
 }
 .doctor-calendar-table table tbody tr td span.time {
   display: inline-block;
-  background-color: #dff5e8;
+  /*background-color: #dff5e8;*/
   color: #1A76D1;
   width: 65px;
   height: 65px;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
   line-height: 65px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
