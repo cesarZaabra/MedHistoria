@@ -11,12 +11,6 @@
 
             while ($query->have_posts()){
                 $query->the_post();
-                //Botones
-                $btn_conocer_text = get_post_meta(get_the_ID(), 'btn_conocer_text', true);
-                $btn_conocer_url = get_post_meta(get_the_ID(), 'btn_conocer_url', true);
-                $btn_contactenos_text = get_post_meta(get_the_ID(), 'btn_contactenos_text', true);
-                $btn_contactenos_url = get_post_meta(get_the_ID(), 'btn_contactenos_url', true);
-
                 ?>
                 <!-- Start Single Slider -->
                 <div class="single-slider" style="background-image:url('<?php the_post_thumbnail_url(); ?>')">
@@ -27,8 +21,8 @@
                                     <h1><?php the_title(); ?></h1>
                                     <p><?php the_content(); ?></p>
                                     <div class="button">
-                                        <?= (isset($btn_conocer_text) and isset($btn_conocer_url)) ? "<a href='{$btn_conocer_url}' class='btn primary'>{$btn_conocer_text}</a>":""?>
-                                        <?= (isset($btn_contactenos_text) and isset($btn_contactenos_url)) ? "<a href='{$btn_contactenos_url}' class='btn'>{$btn_contactenos_text}</a>":""?>
+                                        <a href="<?php the_field('btn_conoce_url') ;?>" class="btn primary"><?php the_field('btn_conoce_text') ;?></a>
+                                        <a href="<?php the_field('btn_contactenos_url') ;?>" class="btn"><?php the_field('btn_contactenos_text') ;?></a>
                                     </div>
                                 </div>
                             </div>
