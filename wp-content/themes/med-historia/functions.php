@@ -31,7 +31,8 @@ function med_historia_assets()
 
     //Estilos del sistema
     wp_enqueue_style('normalize', get_template_directory_uri() . "/assets/css/normalize.css");
-    wp_enqueue_style('style', get_template_directory_uri() . "/assets/style.css");
+    //wp_enqueue_style('style', get_template_directory_uri() . "/assets/style.css");
+    wp_enqueue_style('style', get_template_directory_uri() . "/style.css");
     wp_enqueue_style('responsive', get_template_directory_uri() . "/assets/css/responsive.css");
 
     wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color1.css");
