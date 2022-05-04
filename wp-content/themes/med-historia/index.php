@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Inicio
+ */
+get_header();
+?>
 
     <!-- Slider Area -->
     <section class="slider index2">

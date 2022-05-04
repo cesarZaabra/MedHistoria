@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Template Name: Planes
+ */
+get_header();
+?>
     <!-- Breadcrumbs -->
     <div class="breadcrumbs overlay">
         <div class="container">
