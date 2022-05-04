@@ -9,7 +9,7 @@ function med_historia_theme()
 
     //Menu
     register_nav_menus([
-        'primary-menu' => __('Menu', 'MedHistoria')
+        'primary-menu' => __('Menu principal', 'MedHistoria')
     ]);
 }
 
