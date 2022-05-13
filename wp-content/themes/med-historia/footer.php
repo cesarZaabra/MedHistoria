@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-12">
                     <div class="single-footer">
-                        <img src="img/logo-Medhistoria-blanco.png" class="img-fluid">
+                        <img src="<?= get_template_directory_uri() ?>/assets/img/logo-Medhistoria-blanco.png" class="img-fluid">
                         <br>
                         <br>
                         <p>MedHistoria es un software médico tecnológico al servicio de la salud, donde podrá gestionar todas sus historias clínicas de diferentes especialidades.</p>
