@@ -44,7 +44,7 @@ get_header();
     <!--/ End Slider Area -->
 
     <!-- Start Feautes -->
-    <section class="Feautes index2 section">
+    <section id="#producto" class="Feautes index2 section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -136,7 +136,7 @@ get_header();
                     <div class="single-fun wow fadeIn" data-wow-delay="0.4s" data-wow-duration="0.5s">
                         <i class="icofont-medical-sign"></i>
                         <div class="content">
-                            <span class="counter">1.100000</span>
+                            <span>+ de 1.100.000</span>
                             <p>Atenciones médicas</p>
                         </div>
                     </div>
@@ -245,35 +245,27 @@ get_header();
                     <div class="owl-carousel portfolio-slider">
                         <div class="single-pf wow fadeIn" data-wow-delay="0.2s" data-wow-duration="0.8s">
                             <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Pediatria.png" alt="#">
-                            <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="0.4s" data-wow-duration="0.8s">
                             <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Enfermeria.png" alt="#">
-                            <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="0.6s" data-wow-duration="0.8s">
                             <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Medicina.png" alt="#">
-                            <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="0.8s" data-wow-duration="0.8s">
                             <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Neurologia.png" alt="#">
-                            <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="1s" data-wow-duration="0.8s">
                             <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Cardiologia.png" alt="#">
-                            <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="1.2s" data-wow-duration="0.8s">
                             <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Historia-clinica.png" alt="#">
-                            <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="1.4s" data-wow-duration="0.8s">
                             <img src="<?= get_template_directory_uri()?>/assets/img/carrusel/Laboratorio.png" alt="#">
-                            <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                         <div class="single-pf wow fadeIn" data-wow-delay="1.6s" data-wow-duration="0.8s">
                             <img src= "<?= get_template_directory_uri()?>/assets/img/carrusel/Optometria.png" alt="#">
-                            <a href="portfolio-details.html" class="btn">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -371,12 +363,12 @@ get_header();
                         <div class="t-head">
                             <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/Santiago Polo.png" alt="#">
                             <div class="t-icon">
-                                <a href="appointment.html" class="btn">Get Appointment</a>
+                                <a href="demo.html" class="btn">Conocer más</a>
                             </div>
                         </div>
                         <div class="t-bottom">
                             <p>Dermatólogo</p>
-                            <h2><a href="doctor-details.html">Dr. Santiago Polo</a></h2>
+                            <h2><a href="demo.html">Dr. Santiago Polo</a></h2>
                         </div>
                     </div>
                     <!-- End Single Team -->
@@ -388,7 +380,7 @@ get_header();
                         <div class="t-head">
                             <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/Monica Reyes.png" alt="#">
                             <div class="t-icon">
-                                <a href="appointment.html" class="btn">Get Appointment</a>
+                                <a href="demo.html" class="btn">Conocer más</a>
                             </div>
                         </div>
                         <!-- Team Bottom -->
@@ -407,7 +399,7 @@ get_header();
                         <div class="t-head">
                             <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/Jose Fuentes.png" alt="#">
                             <div class="t-icon">
-                                <a href="appointment.html" class="btn">Get Appointment</a>
+                                <a href="demo.html" class="btn">Conocer más</a>
                             </div>
                         </div>
                         <!-- Team Bottom -->
@@ -424,9 +416,9 @@ get_header();
                     <div class="single-team wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
                         <!-- Team Head -->
                         <div class="t-head">
-                            <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/juan-castaneda.png" alt="juan-castañeda.png">
+                            <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/Juan Castañeda.png" alt="#">
                             <div class="t-icon">
-                                <a href="appointment.html" class="btn">Get Appointment</a>
+                                <a href="demo.html" class="btn">Conocer más</a>
                             </div>
                         </div>
                         <!-- Team Bottom -->
@@ -702,7 +694,7 @@ get_header();
                 <div class="col-lg-4 col-md-12 col-12"></div>
                 <div class="col-lg-4 col-md-12 col-12">
                     <div class="table-bottom">
-                        <a class="btn" href="#" style="background: #1dbfd6;">Conoce más</a>
+                        <a class="btn" href="planes.html" style="background: #1dbfd6;">Conoce más</a>
                     </div>
                 </div>
             </div>
