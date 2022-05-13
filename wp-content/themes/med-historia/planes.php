@@ -135,7 +135,7 @@ get_header();
                 <div class="col-lg-12">
                     <div class="section-title">
                         <h2>Nuestros Planes</h2>
-                        <img src="<?= get_template_directory_uri()?>/assets/img/section-img.png" alt="#">
+                        <img src="<?= get_template_directory_uri() ?>/img/section-img.png" alt="#">
                     </div>
                 </div>
             </div>
