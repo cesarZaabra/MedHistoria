@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Crear cuenta
+ * Template Name: Políticas de privacidad
  */
 get_header();
 ?>
