@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Políticas de privacidad
+ * Template Name: Políticas de Cookies
  */
 get_header();
 ?>
