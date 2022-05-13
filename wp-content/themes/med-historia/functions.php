@@ -36,41 +36,28 @@ function med_historia_assets()
     wp_enqueue_style('responsive', get_template_directory_uri() . "/assets/css/responsive.css");
 
     wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color1.css");
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color2.css", array(), '1.0');
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color3.css", array(), '1.0');
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color4.css", array(), '1.0');
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color5.css", array(), '1.0');
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color6.css", array(), '1.0');
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color7.css", array(), '1.0');
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color8.css", array(), '1.0');
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color9.css", array(), '1.0');
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color10.css", array(), '1.0');
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color11.css", array(), '1.0');
-    //wp_enqueue_style('color', get_template_directory_uri() . "/assets/css/color/color12.css", array(), '1.0');
-
 
     //Scripts
-    wp_enqueue_script('jquery', get_template_directory_uri() . "/assets/js/jquery.min.js", array('jquery'));
-    wp_enqueue_script('jquery-migrate-3.0.0', get_template_directory_uri() . "/assets/js/jquery-migrate-3.0.0.js", array('jquery'));
-    wp_enqueue_script('jquery-ui', get_template_directory_uri() . "/assets/js/jquery-ui.min.js", array('jquery'));
-    wp_enqueue_script('easing', get_template_directory_uri() . "/assets/js/easing.js", array('jquery'));
-    //wp_enqueue_script('colors', get_template_directory_uri() . "/assets/js/colors.js", array('jquery'));
-    wp_enqueue_script('popper', get_template_directory_uri() . "/assets/js/popper.min.js", array('jquery'));
-    wp_enqueue_script('bootstrap-datepicker', get_template_directory_uri() . "/assets/js/bootstrap-datepicker.js", array('jquery'));
-    wp_enqueue_script('jquery.nav', get_template_directory_uri() . "/assets/js/jquery.nav.js", array('jquery'));
-    wp_enqueue_script('slicknav', get_template_directory_uri() . "/assets/js/slicknav.min.js", array('jquery'));
-    wp_enqueue_script('jquery.scrollUp', get_template_directory_uri() . "/assets/js/jquery.scrollUp.min.js", array('jquery'));
-    wp_enqueue_script('niceselect', get_template_directory_uri() . "/assets/js/niceselect.js", array('jquery'));
-    wp_enqueue_script('tilt.jquery', get_template_directory_uri() . "/assets/js/tilt.jquery.min.js", array('jquery'));
-    wp_enqueue_script('owl-carousel', get_template_directory_uri() . "/assets/js/owl-carousel.js", array('jquery'));
-    wp_enqueue_script('jquery.counterup', get_template_directory_uri() . "/assets/js/jquery.counterup.min.js", array('jquery'));
-    wp_enqueue_script('steller', get_template_directory_uri() . "/assets/js/steller.js", array('jquery'));
-    wp_enqueue_script('wow.min', get_template_directory_uri() . "/assets/js/wow.min.js", array('jquery'));
-    wp_enqueue_script('jquery.magnific-popup', get_template_directory_uri() . "/assets/js/jquery.magnific-popup.min.js", array('jquery'));
-    wp_enqueue_script('waypoints', "https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js");
-    wp_enqueue_script('bootstrap', get_template_directory_uri() . "/assets/js/bootstrap.min.js", array('jquery'));
-    wp_enqueue_script('main', get_template_directory_uri() . "/assets/js/main.js", array('jquery'));
-
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/jquery.min.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/jquery-migrate-3.0.0.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/jquery-ui.min.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/easing.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/colors.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/popper.min.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/bootstrap-datepicker.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/jquery.nav.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/slicknav.min.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/jquery.scrollUp.min.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/niceselect.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/tilt.jquery.min.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/owl-carousel.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/jquery.counterup.min.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/steller.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/wow.min.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/jquery.magnific-popup.min.js");
+    wp_enqueue_script('', "http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/bootstrap.min.js");
+    wp_enqueue_script('', get_template_directory_uri() . "/assets/js/main.js");
 }
 
 add_action('wp_enqueue_scripts', 'med_historia_assets');

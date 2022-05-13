@@ -114,7 +114,7 @@ get_header();
                     <div class="single-fun wow fadeIn" data-wow-delay="0.8s" data-wow-duration="0.5s">
                         <i class="icofont-doctor"></i>
                         <div class="content">
-                            <span class="counter">1.289</span>
+                            <span class="counter">1289</span>
                             <p>Médicos Especialistas</p>
                         </div>
                     </div>
@@ -125,7 +125,7 @@ get_header();
                     <div class="single-fun wow fadeIn" data-wow-delay="0.6s" data-wow-duration="0.5s">
                         <i class="icofont-users-alt-3"></i>
                         <div class="content">
-                            <span class="counter">655.000</span>
+                            <span class="counter">655000</span>
                             <p>Pacientes</p>
                         </div>
                     </div>
@@ -136,7 +136,7 @@ get_header();
                     <div class="single-fun wow fadeIn" data-wow-delay="0.4s" data-wow-duration="0.5s">
                         <i class="icofont-medical-sign"></i>
                         <div class="content">
-                            <span>+ de 1.100.000</span>
+                            <span>+ de 1100000</span>
                             <p>Atenciones médicas</p>
                         </div>
                     </div>
