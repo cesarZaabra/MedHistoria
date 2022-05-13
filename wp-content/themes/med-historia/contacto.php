@@ -4,18 +4,17 @@
  */
 get_header();
 ?>
-
     <!-- Breadcrumbs -->
     <div class="breadcrumbs overlay">
         <div class="container">
             <div class="bread-inner">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Contact Us</h2>
+                        <h2>Contáctenos</h2>
                         <ul class="bread-list">
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index.html">Inicio</a></li>
                             <li><i class="icofont-simple-right"></i></li>
-                            <li class="active">Contact Us</li>
+                            <li class="active">Contáctenos</li>
                         </ul>
                     </div>
                 </div>
@@ -38,14 +37,14 @@ get_header();
                     </div>
                     <div class="col-lg-6">
                         <div class="contact-us-form">
-                            <h2>Contact With Us</h2>
-                            <p>If you have any questions please fell free to contact with us.</p>
+                            <h2>Contáctenos</h2>
+                            <p>Ingrese sus datos y le contáctaremos pronto.</p>
                             <!-- Form -->
                             <form class="form" method="post" action="mail/mail.php">
                                 <div class="row">
-                                    <div class="col-lg-6">
+                                    <div class="col-lg-12">
                                         <div class="form-group">
-                                            <input type="text" name="name" placeholder="Name" required="">
+                                            <input type="text" name="name" placeholder="Nombre" required="">
                                         </div>
                                     </div>
                                     <div class="col-lg-6">
@@ -55,25 +54,20 @@ get_header();
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" name="phone" placeholder="Phone" required="">
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" name="subject" placeholder="Subject" required="">
+                                            <input type="text" name="phone" placeholder="Teléfono" required="">
                                         </div>
                                     </div>
                                     <div class="col-lg-12">
                                         <div class="form-group">
-                                            <textarea name="message" placeholder="Your Message" required=""></textarea>
+                                            <textarea name="message" placeholder="Su mensaje" required=""></textarea>
                                         </div>
                                     </div>
                                     <div class="col-12">
                                         <div class="form-group login-btn">
-                                            <button class="btn" type="submit">Send</button>
+                                            <button class="btn" type="submit">Enviar</button>
                                         </div>
                                         <div class="checkbox">
-                                            <label class="checkbox-inline" for="2"><input name="news" id="2" type="checkbox">Do you want to subscribe our Newsletter ?</label>
+                                            <label class="checkbox-inline" for="2"><input name="news" id="2" type="checkbox">¿Desea susbribirse al boletín?</label>
                                         </div>
                                     </div>
                                 </div>
@@ -123,5 +117,4 @@ get_header();
         </div>
     </section>
     <!--/ End Contact Us -->
-
 <?php get_footer();
