@@ -424,7 +424,7 @@ get_header();
                     <div class="single-team wow fadeInUp" data-wow-delay="1s" data-wow-duration="1s">
                         <!-- Team Head -->
                         <div class="t-head">
-                            <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/juan-castañeda.png" alt="juan-castañeda.png">
+                            <img src="<?= get_template_directory_uri()?>/assets/img/profesionales/juan-castaneda.png" alt="juan-castañeda.png">
                             <div class="t-icon">
                                 <a href="appointment.html" class="btn">Get Appointment</a>
                             </div>

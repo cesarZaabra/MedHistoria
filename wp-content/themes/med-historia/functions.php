@@ -63,7 +63,7 @@ function med_historia_assets()
     wp_enqueue_script('niceselect', get_template_directory_uri() . "/assets/js/niceselect.js", array('jquery'));
     wp_enqueue_script('tilt.jquery', get_template_directory_uri() . "/assets/js/tilt.jquery.min.js", array('jquery'));
     wp_enqueue_script('owl-carousel', get_template_directory_uri() . "/assets/js/owl-carousel.js", array('jquery'));
-    wp_enqueue_script('jquery.counterup', get_template_directory_uri() . "/assets/js/jquery.counterup.min.js", array('jquery'));
+    wp_enqueue_script('jquery.counterup', get_template_directory_uri() . "/assets/js/jquery.counterup.min.js", array('jquery'), null);
     wp_enqueue_script('steller', get_template_directory_uri() . "/assets/js/steller.js", array('jquery'));
     wp_enqueue_script('wow.min', get_template_directory_uri() . "/assets/js/wow.min.js", array('jquery'));
     wp_enqueue_script('jquery.magnific-popup', get_template_directory_uri() . "/assets/js/jquery.magnific-popup.min.js", array('jquery'));
