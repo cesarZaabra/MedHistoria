@@ -314,9 +314,9 @@ Version:	1.1
 				title: 'Marker with InfoWindow',
 				infoWindow: {
 				content: '<p>welcome to Medipro</p>'
-			}
+			};
 		
-		});*/
+		})*/
 	});
 	
 	/*====================
